@@ -1,7 +1,7 @@
 <template>
   <q-separator v-if="cat !== ''" />
   <div class="row justify-center">
-    <strong class="q-my-md text-purple"> {{ cat }}</strong>
+    <strong class="q-my-md text-accent"> {{ cat }}</strong>
   </div>
   <q-item clickable @click="go" dense v-if="!unico">
     <q-item-section>

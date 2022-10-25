@@ -1,8 +1,8 @@
 <template>
   <q-page class="q-mx-xl">
-    <h4 class="text-center text-accent q-mt-xl">La Papisa - Weissbier</h4>
+    <h4 class="text-center text-accent q-mt-xl">La Luna - Milky Stout</h4>
     <div class="row justify-center">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-8">
         <q-carousel
           animated
           v-model="slide"
@@ -17,17 +17,17 @@
         >
           <q-carousel-slide class="text-center" :name="1">
             <q-img
-              src="../../assets/productos/cervezas/papisa/etiqueta.png"
+              src="../../assets/productos/cervezas/luna/etiqueta.png"
               width="25%"
           /></q-carousel-slide>
           <q-carousel-slide class="text-center" :name="2">
             <q-img
-              src="../../assets/productos/cervezas/papisa/Papisa1.png"
+              src="../../assets/productos/cervezas/luna/Luna1.png"
               width="25%"
           /></q-carousel-slide>
           <q-carousel-slide class="text-center" :name="3">
             <q-img
-              src="../../assets/productos/cervezas/papisa/Papisa2.png"
+              src="../../assets/productos/cervezas/luna/Luna2.png"
               width="25%"
           /></q-carousel-slide>
           <q-carousel-slide class="text-center" :name="4">
@@ -35,7 +35,7 @@
           /></q-carousel-slide>
         </q-carousel>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-4">
         <q-card>
           <q-card-section>
             <div class="text-h4 text-grey q-mb-md">
@@ -104,33 +104,32 @@
     <h5 class="text-negative q-mt-xl">Parámetros de estilo</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm">
       <ul class="">
-        <li>COLOR: 5 SRM</li>
-        <li>ALCOHOL: 5° GL</li>
-        <li>AMARGOR: 14 IBU</li>
+        <li>COLOR: 34 SRM</li>
+        <li>ALCOHOL: 4,5 °GL</li>
+        <li>AMARGOR: 45 IBU</li>
       </ul>
     </q-banner>
     <q-separator class="q-my-xl" />
     <h5 class="text-negative q-mt-xl">Notas de Cata</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm q-py-xl">
       <p>
-        Aromas floreales, a clavo de olor y a plátanos maduros, sabores de
-        pomelo y un equilibrio maltoso con un largo fin de boca son el resutado
+        Aromas maltosos y de flores silvestres logrados por dry hopping, sabores
+        de malta dulce, pan tostado y una ligera acidez frutal son el resutado
         de ésta cerveza.
       </p>
     </q-banner>
     <q-separator class="q-my-xl" />
-    <h5 class="text-negative q-mt-xl">Arcano La Papisa</h5>
+    <h5 class="text-negative q-mt-xl">Arcano La Luna</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm q-py-xl">
       <p>
-        Esta cerveza se encuentra inspirada en la energía del Arcano II: "LA
-        PAPISA", quien con su pureza y casta timidez se olvida del mundo y sus
-        placeres banales para así adentrarse en las profundidades del saber
-        interior, de la espiritualidad y de la fusión armoniosa con las energías
-        de la creación, invitándonos a sumergirnos en la autocontemplación.
+        Esta cerveza se encuentra inspirada en la energía del arcano XVIII: "LA
+        LUNA", quien nos amanece con su cálido manto de luz luego de la larga
+        noche de temor, incertidumbre y transformación, para así brindarnos la
+        calma hacia el camino del autoconocimiento y crecimiento personal.
       </p>
       <p>
-        La Papisa se confeccionó con las energías de la pureza, el saber y la
-        espiritualidad .
+        La Luna se confeccionó con as energías del silencio, la transformación y
+        el autoconocimiento.
       </p>
     </q-banner>
     <q-separator class="q-my-xl" />

@@ -1,11 +1,12 @@
 <template>
   <q-page class="q-mx-xl">
-    <h4 class="text-center text-accent q-mt-xl">La Papisa - Weissbier</h4>
+    <h4 class="text-center text-accent q-mt-xl">La Justicia - Scottish Ale</h4>
     <div class="row justify-center">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-8">
         <q-carousel
           animated
           v-model="slide"
+          navigation
           infinite
           :autoplay="autoplay"
           arrows
@@ -13,29 +14,28 @@
           transition-next="slide-left"
           @mouseenter="autoplay = false"
           @mouseleave="autoplay = true"
-          height="500px"
+          height="300px"
         >
-          <q-carousel-slide class="text-center" :name="1">
-            <q-img
-              src="../../assets/productos/cervezas/papisa/etiqueta.png"
-              width="25%"
-          /></q-carousel-slide>
-          <q-carousel-slide class="text-center" :name="2">
-            <q-img
-              src="../../assets/productos/cervezas/papisa/Papisa1.png"
-              width="25%"
-          /></q-carousel-slide>
-          <q-carousel-slide class="text-center" :name="3">
-            <q-img
-              src="../../assets/productos/cervezas/papisa/Papisa2.png"
-              width="25%"
-          /></q-carousel-slide>
-          <q-carousel-slide class="text-center" :name="4">
-            <q-img src="../../assets/productos/pack.png" width="20%"
-          /></q-carousel-slide>
+          <q-carousel-slide
+            class="text-center"
+            :name="1"
+            img-src="../../assets/productos/cervezas/luna/1.jpg"
+          />
+          <q-carousel-slide
+            :name="2"
+            img-src="https://cdn.quasar.dev/img/parallax1.jpg"
+          />
+          <q-carousel-slide
+            :name="3"
+            img-src="https://cdn.quasar.dev/img/parallax2.jpg"
+          />
+          <q-carousel-slide
+            :name="4"
+            img-src="https://cdn.quasar.dev/img/quasar.jpg"
+          />
         </q-carousel>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-4">
         <q-card>
           <q-card-section>
             <div class="text-h4 text-grey q-mb-md">
@@ -104,33 +104,33 @@
     <h5 class="text-negative q-mt-xl">Parámetros de estilo</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm">
       <ul class="">
-        <li>COLOR: 5 SRM</li>
-        <li>ALCOHOL: 5° GL</li>
-        <li>AMARGOR: 14 IBU</li>
+        <li>COLOR: 6 SRM</li>
+        <li>ALCOHOL: 6,1 °GL</li>
+        <li>AMARGOR: 25 IBU</li>
       </ul>
     </q-banner>
     <q-separator class="q-my-xl" />
     <h5 class="text-negative q-mt-xl">Notas de Cata</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm q-py-xl">
       <p>
-        Aromas floreales, a clavo de olor y a plátanos maduros, sabores de
-        pomelo y un equilibrio maltoso con un largo fin de boca son el resutado
-        de ésta cerveza.
+        Equilibrio entre sabores maltosos acaramelados y amargor con notas de
+        frutos secos son el resultado.
       </p>
     </q-banner>
     <q-separator class="q-my-xl" />
-    <h5 class="text-negative q-mt-xl">Arcano La Papisa</h5>
+    <h5 class="text-negative q-mt-xl">Arcano La Justicia</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm q-py-xl">
       <p>
-        Esta cerveza se encuentra inspirada en la energía del Arcano II: "LA
-        PAPISA", quien con su pureza y casta timidez se olvida del mundo y sus
-        placeres banales para así adentrarse en las profundidades del saber
-        interior, de la espiritualidad y de la fusión armoniosa con las energías
-        de la creación, invitándonos a sumergirnos en la autocontemplación.
+        Esta cerveza se encuentra inspirada en el arcano VIII, "La Justicia",
+        quien nos mira de frente preguntando por el balance en nuestra vida, por
+        el ciclo de desarrollo y karma que estamos atravesando. La justicia nos
+        lleva a la contemplación de nuestra perfecta imperfección, llevándonos
+        mediante juicio a cortar con todo aquello que nos ata y así tender hacia
+        el "nuevo yo".
       </p>
       <p>
-        La Papisa se confeccionó con las energías de la pureza, el saber y la
-        espiritualidad .
+        La Justicia se confeccionó con las energías del blance, con la atenta
+        mirada hacia nuestro trabajo exigiéndonos cada vez ser mejores.
       </p>
     </q-banner>
     <q-separator class="q-my-xl" />

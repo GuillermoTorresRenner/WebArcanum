@@ -1,6 +1,6 @@
 <template>
   <q-layout view="hHh lpR fFf">
-    <q-header elevated class="bg-secondary" reveal>
+    <q-header elevated class="bg-primary" reveal>
       <q-toolbar>
         <q-btn
           flat
@@ -10,64 +10,87 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
           class="ocultarMenu"
+          color="negative"
         />
-        <a href="/">
+        <a href="/" class="q-my-sm">
           <img src="../assets/Logo.png" width="40" class="q-ml-md"
         /></a>
         <div class="ocultarBarra">
-          <q-btn color="primary" label="El Aquelarre" class="q-mx-md" size="sm">
+          <q-btn
+            color="negative"
+            label="El Alquimista"
+            class="q-mx-md"
+            size="sm"
+            text-color="secondary"
+            to="/el-alquimista"
+          >
           </q-btn>
-          <q-btn color="primary" label="Nuestras Cervezas" size="sm">
+          <q-btn
+            color="negative"
+            label="Nuestras Cervezas"
+            size="sm"
+            text-color="secondary"
+          >
             <q-menu>
               <q-list style="min-width: 100px">
-                <q-item clickable to="/la-papisa">
+                <q-item clickable to="/cervezas/la-papisa">
                   <q-item-section>LA PAPISA - Weissbier</q-item-section>
                 </q-item>
-                <q-item clickable to="/la-emperatriz">
+                <q-item clickable to="/cervezas/la-emperatriz">
                   <q-item-section>LA EMPERATRIZ - Irish Red</q-item-section>
                 </q-item>
-                <q-item clickable to="/la-justicia">
+                <!-- <q-item clickable to="/cervezas/la-justicia">
                   <q-item-section>LA JUSTICIA - Scottish Ale</q-item-section>
-                </q-item>
-                <q-item clickable to="/la-estrella">
+                </q-item> -->
+                <q-item clickable to="/cervezas/la-estrella">
                   <q-item-section>LA ESTRELLA - Belgian Blonde</q-item-section>
                 </q-item>
-                <q-item clickable to="/la-luna">
+                <q-item clickable to="/cervezas/la-luna">
                   <q-item-section>LA LUNA - Milky Stout</q-item-section>
                 </q-item>
-                <q-item clickable to="/el-sol">
+                <q-item clickable to="/cervezas/el-sol">
                   <q-item-section>EL SOL - Dorada Pampeana</q-item-section>
                 </q-item>
               </q-list>
             </q-menu>
           </q-btn>
           <q-btn
-            color="primary"
+            color="negative"
             label="Nuestra Kombucha"
             class="q-mx-md"
             size="sm"
+            text-color="secondary"
           >
             <q-menu>
               <q-list style="min-width: 100px">
-                <q-item clickable to="/el-sol">
-                  <q-item-section>Algiz -1</q-item-section>
+                <q-item clickable to="/kombuchas/algiz1">
+                  <q-item-section>Cúrcuma, Cedrón y Maqui</q-item-section>
                 </q-item>
-                <q-item clickable to="/el-sol">
-                  <q-item-section>Algiz -2</q-item-section>
+                <q-item clickable to="/kombuchas/algiz2">
+                  <q-item-section
+                    >Frutilla, Arándanos y Hierba Buena</q-item-section
+                  >
                 </q-item>
-                <q-item clickable to="/el-sol">
-                  <q-item-section>Algiz -3</q-item-section>
+                <q-item clickable to="/kombuchas/algiz3">
+                  <q-item-section
+                    >Jengibre, Limón y Hierba Buena</q-item-section
+                  >
                 </q-item>
-                <q-item clickable to="/el-sol">
-                  <q-item-section>Algiz -4</q-item-section>
+                <q-item clickable to="/kombuchas/algiz4">
+                  <q-item-section>Piña y Lúṕulo</q-item-section>
                 </q-item>
-                <q-item clickable to="/el-sol">
-                  <q-item-section>Algiz -5</q-item-section>
+                <q-item clickable to="/kombuchas/algiz5">
+                  <q-item-section>Pomelo y Albahaca</q-item-section>
                 </q-item>
               </q-list>
             </q-menu>
           </q-btn>
-          <q-btn color="primary" label="Nuestro Sake" size="sm">
+          <!-- <q-btn
+            color="negative"
+            label="Nuestro Sake"
+            size="sm"
+            text-color="secondary"
+          >
             <q-menu>
               <q-list style="min-width: 100px">
                 <q-item clickable to="/el-sol">
@@ -75,7 +98,7 @@
                 </q-item>
               </q-list>
             </q-menu>
-          </q-btn>
+          </q-btn> -->
         </div>
 
         <q-btn
@@ -83,15 +106,19 @@
           @click="onClick"
           class="q-mx-md"
           size="sm"
-          color="primary"
+          color="negative"
+          text-color="secondary"
+          to="/contacto"
         />
-        <q-btn
+        <!-- carro de compras -->
+        <!-- <q-btn
           icon="ion-cart "
           @click="onClick"
           class=""
           size="sm"
-          color="primary"
-        />
+          color="negative"
+          text-color="secondary"
+              /> -->
       </q-toolbar>
     </q-header>
 
@@ -99,7 +126,7 @@
       v-model="leftDrawerOpen"
       bordered
       width="200"
-      color="primary"
+      color="secondary"
       class="ocultarMenu"
     >
       <q-list class="">
@@ -111,18 +138,18 @@
       </q-list>
     </q-drawer>
 
-    <q-footer elevated class="bg-secondary" reveal>
+    <q-footer elevated class="bg-primary" reveal>
       <q-toolbar>
-        <strong class="text-caption text-primary">Nuestras Redes</strong>
+        <strong class="text-caption text-negative">Nuestras Redes</strong>
         <q-btn
-          color="primary"
+          color="negative"
           icon="ion-logo-instagram"
           @click="insta"
           class=""
           flat
         />
-        <q-btn color="primary" icon="ion-logo-facebook" @click="face" flat />
-        <q-btn color="primary" icon="ion-mail" @click="mail" class="" flat />
+        <q-btn color="negative" icon="ion-logo-facebook" @click="face" flat />
+        <q-btn color="negative" icon="ion-mail" @click="mail" class="" flat />
       </q-toolbar>
     </q-footer>
     <q-page-container>
@@ -134,7 +161,7 @@
         icon="ion-logo-whatsapp"
         fab-mini
         dense
-        color="positive"
+        color="green"
         tool
         @click="whatsapp"
       >
@@ -163,65 +190,65 @@ const linksList = [
     cat: " CERVEZAS",
     title: "LA PAPISA",
     caption: "Weissbier",
-    link: "https://github.com/quasarframework",
+    link: "/cervezas/la-papisa",
   },
   {
     title: "LA EMPERATRIZ",
     caption: "Irish Red",
-    link: "https://chat.quasar.dev",
+    link: "/cervezas/la-emperatriz",
   },
-  {
-    title: "LA JUSTICIA",
-    caption: "Scotish Ale",
-    link: "https://forum.quasar.dev",
-  },
+  // {
+  //   title: "LA JUSTICIA",
+  //   caption: "Scotish Ale",
+  //   link: "/cervezas/la-justicia",
+  // },
   {
     title: "LA ESTRELLA",
     caption: "Belgian Blonde",
-    link: "https://twitter.quasar.dev",
+    link: "/cervezas/la-estrella",
   },
   {
     title: "LA LUNA",
     caption: "Milky Stout",
-    link: "https://facebook.quasar.dev",
+    link: "/cervezas/la-luna",
   },
   {
     title: "EL SOL",
     caption: "Dorada Pampeana",
-    link: "https://awesome.quasar.dev",
+    link: "/cervezas/el-sol",
   },
   {
     cat: "KOMBUCHAS",
-    title: "ALGIZ",
-    caption: "1",
-    link: "https://github.com/quasarframework",
+    title: "Cúcuma, Cedrón y Maqui",
+    caption: "Algiz 1",
+    link: "/kombuchas/algiz1",
   },
   {
-    title: "ALGIZ",
-    caption: "2",
-    link: "https://github.com/quasarframework",
+    title: "Frutilla, Arándano y Hierba Buena",
+    caption: "Algiz 2",
+    link: "/kombuchas/algiz2",
   },
   {
-    title: "ALGIZ",
-    caption: "3",
-    link: "https://github.com/quasarframework",
+    title: "Jengibre, Limón y Hierba Buena",
+    caption: "Algiz 3",
+    link: "/kombuchas/algiz3",
   },
   {
-    title: "ALGIZ",
-    caption: "4",
-    link: "https://github.com/quasarframework",
+    title: "Piña y Lúpulo",
+    caption: "Algiz 4",
+    link: "/kombuchas/algiz4",
   },
   {
-    title: "ALGIZ",
-    caption: "5",
-    link: "https://github.com/quasarframework",
+    title: "Pomelo y Albahaca",
+    caption: "Algiz 5",
+    link: "/kombuchas/algiz5",
   },
-  {
-    cat: "SAKE",
-    title: "GAIKOKU",
-    caption: "Nigorizake",
-    link: "https://github.com/quasarframework",
-  },
+  // {
+  //   cat: "SAKE",
+  //   title: "GAIKOKU",
+  //   caption: "Nigorizake",
+  //   link: "https://github.com/quasarframework",
+  // },
   {
     title: "TIENDA",
     unico: true,

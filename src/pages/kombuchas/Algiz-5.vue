@@ -1,6 +1,8 @@
 <template>
   <q-page class="q-mx-xl">
-    <h4 class="text-center text-accent q-mt-xl">La Papisa - Weissbier</h4>
+    <h4 class="text-center text-accent q-mt-xl">
+      Algiz 5 - Kombucha de pomelo y albahaca
+    </h4>
     <div class="row justify-center">
       <div class="col-12 col-md-6">
         <q-carousel
@@ -17,21 +19,16 @@
         >
           <q-carousel-slide class="text-center" :name="1">
             <q-img
-              src="../../assets/productos/cervezas/papisa/etiqueta.png"
-              width="25%"
+              src="../../assets/productos/kombuchas/Algiz5.png"
+              width="35%"
           /></q-carousel-slide>
           <q-carousel-slide class="text-center" :name="2">
             <q-img
-              src="../../assets/productos/cervezas/papisa/Papisa1.png"
-              width="25%"
+              src="../../assets/productos/kombuchas/Kombuchas.jpg"
+              width="100%"
           /></q-carousel-slide>
           <q-carousel-slide class="text-center" :name="3">
-            <q-img
-              src="../../assets/productos/cervezas/papisa/Papisa2.png"
-              width="25%"
-          /></q-carousel-slide>
-          <q-carousel-slide class="text-center" :name="4">
-            <q-img src="../../assets/productos/pack.png" width="20%"
+            <q-img src="../../assets/productos/pack.png" width="35%"
           /></q-carousel-slide>
         </q-carousel>
       </div>
@@ -46,16 +43,16 @@
               cerveza para realizar envios mediante nuestros colaboradores.
             </p>
             <p>
-              Te invitamos a armar tu 6-pack personalizado con las cervezas de
-              tu elección. El precio de cada cerveza dentro de un 6-pack es de
-              <strong class="text-green">$2000</strong> y cada cerveza que se no
+              Te invitamos a armar tu 6-pack personalizado con las kombuchas de
+              tu elección. El precio de cada kombucha dentro de un 6-pack es de
+              <strong class="text-green">$2000</strong> y cada botella que se no
               se encuentre en un grupo de 6 se cobrará a
               <strong class="text-green">$2.300</strong>
             </p>
             <p>
-              <strong> Ejemplo:</strong> en 14 cervezas tendremos 2 6-packs y 2
-              cervezas sueltas, se cobrarán a $2.000 cada cerveza de los packs y
-              las dos cervezas sueltas se cobrarán a $2.300 cada una
+              <strong> Ejemplo:</strong> en 14 kombuchas tendremos 2 6-packs y 2
+              kombuchas sueltas, se cobrarán a $2.000 cada cerveza de los packs
+              y las dos kombuchas sueltas se cobrarán a $2.300 cada una
             </p>
 
             <strong class="text-negative">
@@ -101,38 +98,48 @@
         </q-card>
       </div>
     </div>
-    <h5 class="text-negative q-mt-xl">Parámetros de estilo</h5>
-    <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm">
-      <ul class="">
-        <li>COLOR: 5 SRM</li>
-        <li>ALCOHOL: 5° GL</li>
-        <li>AMARGOR: 14 IBU</li>
-      </ul>
-    </q-banner>
     <q-separator class="q-my-xl" />
-    <h5 class="text-negative q-mt-xl">Notas de Cata</h5>
+    <h5 class="text-negative q-mt-xl">Beneficios de la Kombucha</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm q-py-xl">
       <p>
-        Aromas floreales, a clavo de olor y a plátanos maduros, sabores de
-        pomelo y un equilibrio maltoso con un largo fin de boca son el resutado
-        de ésta cerveza.
+        La Kombucha es una antigua receta China de un fermento que se realizaba
+        de forma natural sobre infusiones de Té azucaradas y que se consumía en
+        algunos poblados rurales.
       </p>
-    </q-banner>
-    <q-separator class="q-my-xl" />
-    <h5 class="text-negative q-mt-xl">Arcano La Papisa</h5>
-    <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm q-py-xl">
       <p>
-        Esta cerveza se encuentra inspirada en la energía del Arcano II: "LA
-        PAPISA", quien con su pureza y casta timidez se olvida del mundo y sus
-        placeres banales para así adentrarse en las profundidades del saber
-        interior, de la espiritualidad y de la fusión armoniosa con las energías
-        de la creación, invitándonos a sumergirnos en la autocontemplación.
+        Se masifica su consumo y se estudian sus cualidades al descubrir que los
+        poblados que la consumían tenían indices de cancer muy bajos en
+        comparación a otras regiones de China, lo cual despertó el intereś de
+        los investigadores.
+      </p>
+      <p>
+        Actualmente preparamos nuestra Kombucha con blends de tés negro, verde y
+        rojo, al que le añadimos un SCOBY (cultivos simbióticos de bacterias y
+        levaduras), lo que origina la fermentación de la bebida, a la que
+        posteriormente se saboriza con frutas y hierbas naturales de estación.
+      </p>
+      <p>
+        El resultado es una bebida gasificada naturalmente, fresca y aromática
+        que provee al organismo de probióticos que fortalecen la flora
+        intestinal y mejoran la inmunidad. El gran aporte de vitamina E es el
+        componente antioxidante principal (anti-cancerígeno).
       </p>
       <p>
         La Papisa se confeccionó con las energías de la pureza, el saber y la
         espiritualidad .
       </p>
     </q-banner>
+
+    <q-separator class="q-my-xl" />
+    <h5 class="text-negative q-mt-xl">Runa Algiz</h5>
+    <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm q-py-xl">
+      <p>
+        Es una de las 25 runas "vikingas" del alfabeto futhark, la cual
+        representa al Alce, lo que para los pueblos nórdicos simbolizaba salud y
+        protección, razón por la cual es el emblema de nuestra kombucha.
+      </p>
+    </q-banner>
+
     <q-separator class="q-my-xl" />
   </q-page>
 </template>

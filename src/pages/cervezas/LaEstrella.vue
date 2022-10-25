@@ -1,8 +1,10 @@
 <template>
   <q-page class="q-mx-xl">
-    <h4 class="text-center text-accent q-mt-xl">La Papisa - Weissbier</h4>
+    <h4 class="text-center text-accent q-mt-xl">
+      La Estrella - Belgian Blonde
+    </h4>
     <div class="row justify-center">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-8">
         <q-carousel
           animated
           v-model="slide"
@@ -17,17 +19,17 @@
         >
           <q-carousel-slide class="text-center" :name="1">
             <q-img
-              src="../../assets/productos/cervezas/papisa/etiqueta.png"
+              src="../../assets/productos/cervezas/estrella/etiqueta.png"
               width="25%"
           /></q-carousel-slide>
           <q-carousel-slide class="text-center" :name="2">
             <q-img
-              src="../../assets/productos/cervezas/papisa/Papisa1.png"
+              src="../../assets/productos/cervezas/estrella/Estrella1.png"
               width="25%"
           /></q-carousel-slide>
           <q-carousel-slide class="text-center" :name="3">
             <q-img
-              src="../../assets/productos/cervezas/papisa/Papisa2.png"
+              src="../../assets/productos/cervezas/estrella/Estrella2.png"
               width="25%"
           /></q-carousel-slide>
           <q-carousel-slide class="text-center" :name="4">
@@ -35,7 +37,7 @@
           /></q-carousel-slide>
         </q-carousel>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-4">
         <q-card>
           <q-card-section>
             <div class="text-h4 text-grey q-mb-md">
@@ -104,33 +106,33 @@
     <h5 class="text-negative q-mt-xl">Parámetros de estilo</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm">
       <ul class="">
-        <li>COLOR: 5 SRM</li>
-        <li>ALCOHOL: 5° GL</li>
-        <li>AMARGOR: 14 IBU</li>
+        <li>COLOR: 6 SRM</li>
+        <li>ALCOHOL: 6,8 °GL</li>
+        <li>AMARGOR: 25 IBU</li>
       </ul>
     </q-banner>
     <q-separator class="q-my-xl" />
     <h5 class="text-negative q-mt-xl">Notas de Cata</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm q-py-xl">
       <p>
-        Aromas floreales, a clavo de olor y a plátanos maduros, sabores de
-        pomelo y un equilibrio maltoso con un largo fin de boca son el resutado
-        de ésta cerveza.
+        Notas de caramelo intensas, aromas terrosos y fenoles especiados son el
+        resultado
       </p>
     </q-banner>
     <q-separator class="q-my-xl" />
-    <h5 class="text-negative q-mt-xl">Arcano La Papisa</h5>
+    <h5 class="text-negative q-mt-xl">Arcano La Estrella</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm q-py-xl">
       <p>
-        Esta cerveza se encuentra inspirada en la energía del Arcano II: "LA
-        PAPISA", quien con su pureza y casta timidez se olvida del mundo y sus
-        placeres banales para así adentrarse en las profundidades del saber
-        interior, de la espiritualidad y de la fusión armoniosa con las energías
-        de la creación, invitándonos a sumergirnos en la autocontemplación.
+        Esta cerveza se encuentra inspirada en el arcano XVII, "La Estrella",
+        quien nos invita a la desnudez espiritual, a preñar nuestras vidas
+        llenándolas de conexión con el universo. La estrella nos habla de
+        purificar nuestro pasado en el recuerdo, en las emociones, para así
+        gestar un futuro transparente y libre de prejuicios.
       </p>
       <p>
-        La Papisa se confeccionó con las energías de la pureza, el saber y la
-        espiritualidad .
+        La Estrella se confeccionó con las energías de la esperanza, con la
+        simpleza de quién inicia un camino sincero hacia el infinito,
+        encontrando su lugar en el mundo.
       </p>
     </q-banner>
     <q-separator class="q-my-xl" />
