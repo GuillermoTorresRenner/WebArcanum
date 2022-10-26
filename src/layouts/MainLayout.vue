@@ -15,16 +15,16 @@
         <a href="/" class="q-my-sm">
           <img src="../assets/Logo.png" width="40" class="q-ml-md"
         /></a>
+        <q-btn
+          color="negative"
+          label="El Alquimista"
+          class="q-mx-md"
+          size="sm"
+          text-color="secondary"
+          to="/el-alquimista"
+        >
+        </q-btn>
         <div class="ocultarBarra">
-          <q-btn
-            color="negative"
-            label="El Alquimista"
-            class="q-mx-md"
-            size="sm"
-            text-color="secondary"
-            to="/el-alquimista"
-          >
-          </q-btn>
           <q-btn
             color="negative"
             label="Nuestras Cervezas"
@@ -182,11 +182,6 @@ import EssentialLink from "components/EssentialLink.vue";
 
 const linksList = [
   {
-    title: "EL AQUELARRE",
-    unico: true,
-    link: "https://quasar.dev",
-  },
-  {
     cat: " CERVEZAS",
     title: "LA PAPISA",
     caption: "Weissbier",
@@ -249,11 +244,7 @@ const linksList = [
   //   caption: "Nigorizake",
   //   link: "https://github.com/quasarframework",
   // },
-  {
-    title: "TIENDA",
-    unico: true,
-    link: "https://awesome.quasar.dev",
-  },
+
   {
     title: "CONTACTO",
     unico: true,

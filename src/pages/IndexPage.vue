@@ -96,7 +96,7 @@
     <h2 class="text-primary text-center q-my-xl">Nuestras Kombuchas</h2>
     <!-- Descripción de productos  -->
     <div class="row items-center justify-center">
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center q-mb-md">
         <q-img src="../assets/productos/kombuchas/Algiz1.png" width="50%">
           <div class="absolute-bottom text-center">
             <q-btn
@@ -107,7 +107,7 @@
           </div>
         </q-img>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center q-mb-md">
         <q-img src="../assets/productos/kombuchas/Algiz2.png" width="50%">
           <div class="absolute-bottom text-center">
             <q-btn
@@ -118,7 +118,7 @@
           </div>
         </q-img>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center q-mb-xl">
         <q-img src="../assets/productos/kombuchas/Algiz3.png" width="50%">
           <div class="absolute-bottom text-center">
             <q-btn
@@ -129,7 +129,7 @@
           </div>
         </q-img>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center q-mb-md">
         <q-img src="../assets/productos/kombuchas/Algiz4.png" width="50%">
           <div class="absolute-bottom text-center">
             <q-btn
@@ -140,7 +140,7 @@
           </div>
         </q-img>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center q-mb-md">
         <q-img src="../assets/productos/kombuchas/Algiz5.png" width="50%">
           <div class="absolute-bottom text-center">
             <q-btn

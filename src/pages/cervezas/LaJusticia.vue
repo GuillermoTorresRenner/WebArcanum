@@ -1,12 +1,13 @@
 <template>
   <q-page class="q-mx-xl">
-    <h4 class="text-center text-accent q-mt-xl">La Justicia - Scottish Ale</h4>
+    <h4 class="text-center text-accent q-mt-xl">
+      La Estrella - Belgian Blonde
+    </h4>
     <div class="row justify-center">
       <div class="col-12 col-md-8">
         <q-carousel
           animated
           v-model="slide"
-          navigation
           infinite
           :autoplay="autoplay"
           arrows
@@ -14,25 +15,26 @@
           transition-next="slide-left"
           @mouseenter="autoplay = false"
           @mouseleave="autoplay = true"
-          height="300px"
+          height="500px"
         >
-          <q-carousel-slide
-            class="text-center"
-            :name="1"
-            img-src="../../assets/productos/cervezas/luna/1.jpg"
-          />
-          <q-carousel-slide
-            :name="2"
-            img-src="https://cdn.quasar.dev/img/parallax1.jpg"
-          />
-          <q-carousel-slide
-            :name="3"
-            img-src="https://cdn.quasar.dev/img/parallax2.jpg"
-          />
-          <q-carousel-slide
-            :name="4"
-            img-src="https://cdn.quasar.dev/img/quasar.jpg"
-          />
+          <q-carousel-slide class="text-center" :name="1">
+            <q-img
+              src="../../assets/productos/cervezas/estrella/etiqueta.png"
+              width="25%"
+          /></q-carousel-slide>
+          <q-carousel-slide class="text-center" :name="2">
+            <q-img
+              src="../../assets/productos/cervezas/estrella/Estrella1.png"
+              width="25%"
+          /></q-carousel-slide>
+          <q-carousel-slide class="text-center" :name="3">
+            <q-img
+              src="../../assets/productos/cervezas/estrella/Estrella2.png"
+              width="25%"
+          /></q-carousel-slide>
+          <q-carousel-slide class="text-center" :name="4">
+            <q-img src="../../assets/productos/pack.png" width="20%"
+          /></q-carousel-slide>
         </q-carousel>
       </div>
       <div class="col-12 col-md-4">
@@ -105,7 +107,7 @@
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm">
       <ul class="">
         <li>COLOR: 6 SRM</li>
-        <li>ALCOHOL: 6,1 °GL</li>
+        <li>ALCOHOL: 6,8 °GL</li>
         <li>AMARGOR: 25 IBU</li>
       </ul>
     </q-banner>
@@ -113,24 +115,24 @@
     <h5 class="text-negative q-mt-xl">Notas de Cata</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm q-py-xl">
       <p>
-        Equilibrio entre sabores maltosos acaramelados y amargor con notas de
-        frutos secos son el resultado.
+        Notas de caramelo intensas, aromas terrosos y fenoles especiados son el
+        resultado
       </p>
     </q-banner>
     <q-separator class="q-my-xl" />
-    <h5 class="text-negative q-mt-xl">Arcano La Justicia</h5>
+    <h5 class="text-negative q-mt-xl">Arcano La Estrella</h5>
     <q-banner class="bg-positive text-secondary q-mx-sm q-px-sm q-py-xl">
       <p>
-        Esta cerveza se encuentra inspirada en el arcano VIII, "La Justicia",
-        quien nos mira de frente preguntando por el balance en nuestra vida, por
-        el ciclo de desarrollo y karma que estamos atravesando. La justicia nos
-        lleva a la contemplación de nuestra perfecta imperfección, llevándonos
-        mediante juicio a cortar con todo aquello que nos ata y así tender hacia
-        el "nuevo yo".
+        Esta cerveza se encuentra inspirada en el arcano XVII, "La Estrella",
+        quien nos invita a la desnudez espiritual, a preñar nuestras vidas
+        llenándolas de conexión con el universo. La estrella nos habla de
+        purificar nuestro pasado en el recuerdo, en las emociones, para así
+        gestar un futuro transparente y libre de prejuicios.
       </p>
       <p>
-        La Justicia se confeccionó con las energías del blance, con la atenta
-        mirada hacia nuestro trabajo exigiéndonos cada vez ser mejores.
+        La Estrella se confeccionó con las energías de la esperanza, con la
+        simpleza de quién inicia un camino sincero hacia el infinito,
+        encontrando su lugar en el mundo.
       </p>
     </q-banner>
     <q-separator class="q-my-xl" />
