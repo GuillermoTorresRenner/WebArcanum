@@ -124,10 +124,6 @@
         intestinal y mejoran la inmunidad. El gran aporte de vitamina E es el
         componente antioxidante principal (anti-cancerígeno).
       </p>
-      <p>
-        La Papisa se confeccionó con las energías de la pureza, el saber y la
-        espiritualidad .
-      </p>
     </q-banner>
 
     <q-separator class="q-my-xl" />
