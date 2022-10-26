@@ -50,9 +50,11 @@
               <strong class="text-green">$2.300</strong>
             </p>
             <p>
-              <strong> Ejemplo:</strong> en 14 kombuchas tendremos 2 6-packs y 2
-              kombuchas sueltas, se cobrarán a $2.000 cada cerveza de los packs
-              y las dos kombuchas sueltas se cobrarán a $2.300 cada una
+              <strong> Ejemplo:</strong> En una compra de 14 kombuchas, hay 2
+              packs de 6 kombuchas más 2 kombuchas sueltas. Las kombuchas dentro
+              de un pack se cobrarán a un valor de $2.000, mientras que las
+              kombuchas sueltas a un valor de $2.300 y las dos kombuchas sueltas
+              se cobrarán a $2.300 cada una
             </p>
 
             <strong class="text-negative">

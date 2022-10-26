@@ -43,7 +43,7 @@
             </div>
             <p>
               En Cervecería Arcanum trabajamos con packs de 6 unidades de
-              cerveza para realizar envios mediante nuestros colaboradores.
+              cerveza para realizar envíos mediante nuestros colaboradores.
             </p>
             <p>
               Te invitamos a armar tu 6-pack personalizado con las cervezas de
@@ -53,9 +53,10 @@
               <strong class="text-green">$2.300</strong>
             </p>
             <p>
-              <strong> Ejemplo:</strong> en 14 cervezas tendremos 2 6-packs y 2
-              cervezas sueltas, se cobrarán a $2.000 cada cerveza de los packs y
-              las dos cervezas sueltas se cobrarán a $2.300 cada una
+              <strong> Ejemplo:</strong> En una compra de 14 cervezas, hay 2
+              packs de 6 cervezas más 2 cervezas sueltas. Las cervezas dentro de
+              un pack se cobrarán a un valor de $2.000, mientras que las
+              cervezas sueltas a un valor de $2.300
             </p>
 
             <strong class="text-negative">

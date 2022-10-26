@@ -30,9 +30,9 @@
         </p>
         <p>
           Caímos en cuenta que cada cerveza tiene una peronalidad única (no lo
-          decimos nosotros solamente, se puede apreciar en las gúias de estilos
+          decimos nosotros solamente, se puede apreciar en las guías de estilos
           cerveceros de la BJCP), por lo que podíamos caracterizar a cada una
-          con la pregunta: "¿Si una Stout fuera una persona, como sería?", lo
+          con la pregunta: "Si una Stout fuera una persona, ¿como sería?", lo
           que nos llevó a darnos cuenta que cada producto corresponde a un
           arquetipo, y que nuestro proceso creativo tiene una intención clara,
           algo que queremos manifestar en cada botella.
@@ -40,7 +40,7 @@
         <p>
           De todas estas particularidades es que decidimos dejar de "Elaborar"
           para comenzar a "Convocar" cervezas, no sólo cuidando el proceso
-          enológico, sino que intencionando la manifestación del mismo
+          enológico, sino que intencionando la manifestación del mismo.
         </p>
         <p>
           Y finalmente... ¿por qué sólo cerveza? Los fermentos son tan antiguos
